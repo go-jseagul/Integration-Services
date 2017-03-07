@@ -1,0 +1,33 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="DataWarehouse.DataAcquisition.AdWords.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="CommandTimeout" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="BulkCopyTimeout" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="EnableClientRefresh" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="EnableReportQueuePopulation" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="EnableReportQueueProcessing" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ReportDownloadTempFolder" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">c:\adwords_downloader\</Value>
+    </Setting>
+    <Setting Name="RootMCCClientCustomerId" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">371-742-9581</Value>
+    </Setting>
+    <Setting Name="DeleteDownloadedReportOnCompletion" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ReportProcessorThreadCount" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">40</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

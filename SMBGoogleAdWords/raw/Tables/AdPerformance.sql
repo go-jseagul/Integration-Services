@@ -1,0 +1,25 @@
+﻿CREATE TABLE [raw].[AdPerformance] (
+    [adperfId]         BIGINT         IDENTITY (1, 1) NOT NULL,
+    [rptlogId]         BIGINT         NOT NULL,
+    [rptdDate]         DATE           NOT NULL,
+    [clientId]         BIGINT         NOT NULL,
+    [campaignID]       BIGINT         NOT NULL,
+    [adGroupID]        BIGINT         NOT NULL,
+    [adID]             BIGINT         NOT NULL,
+    [impressions]      BIGINT         NOT NULL,
+    [avgPosition]      DECIMAL (9, 5) NOT NULL,
+    [clicks]           BIGINT         NOT NULL,
+    [cost]             BIGINT         NOT NULL,
+    [convertedClicks]  BIGINT         NOT NULL,
+    [adState]          VARCHAR (255)  NOT NULL,
+    [ad]               VARCHAR (255)  NOT NULL,
+    [descriptionLine1] VARCHAR (255)  NOT NULL,
+    [descriptionLine2] VARCHAR (255)  NOT NULL,
+    [displayURL]       VARCHAR (255)  NOT NULL,
+    [destinationURL]   VARCHAR (2048) NOT NULL,
+    [network]          VARCHAR (50)   NOT NULL,
+    [finalURL]         VARCHAR (2048) NULL,
+    [mobileFinalURL]   VARCHAR (2048) NULL,
+    [appFinalURL]      VARCHAR (2048) NULL
+);
+
